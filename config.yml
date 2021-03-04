@@ -1,0 +1,16 @@
+title: Qualcomm®Snapdragon™665
+description: CPH1937EX_11_.72
+template:
+  repo: qualcomm(r)snapdragontm665-template
+  name: qualcomm(r)snapdragontm665
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
